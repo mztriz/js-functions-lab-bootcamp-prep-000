@@ -13,6 +13,6 @@ function happyHolidayTo(holiday, name){
 }
 
 function holidayCountdown(days, holiday){
-  days = days.toInt()
+  days = parseInt(days,10)
   return `It's ${holiday} days until ${days}`
 }
