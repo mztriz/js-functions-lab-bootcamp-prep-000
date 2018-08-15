@@ -15,4 +15,4 @@ function happyHolidayTo(holiday, name){
 function holidayCountdown(holiday, days){
   days = parseInt(days,10)
   return `It's ${days} days until ${holiday}!`
-}learn 
+}
